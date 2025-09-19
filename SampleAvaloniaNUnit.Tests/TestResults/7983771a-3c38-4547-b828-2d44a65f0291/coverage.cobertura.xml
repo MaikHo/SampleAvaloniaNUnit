@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.4" branch-rate="0.3333" version="1.9" timestamp="1758109410" lines-covered="10" lines-valid="25" branches-covered="2" branches-valid="6">
+  <sources>
+    <source>/mnt/f727d2a9-f5b7-4d7c-b681-e7f4e47c6b8a/###TESTS###/SampleAvaloniaNUnit/SampleAvaloniaNUnit/</source>
+  </sources>
+  <packages>
+    <package name="SampleAvaloniaNUnit" line-rate="0.4" branch-rate="0.3333" complexity="10">
+      <classes>
+        <class name="SampleAvaloniaNUnit.App" filename="App.axaml.cs" line-rate="0.7" branch-rate="0.5" complexity="3">
+          <methods>
+            <method name="Initialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="OnFrameworkInitializationCompleted" signature="()" line-rate="0.5714" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="SampleAvaloniaNUnit.App" filename="App.axaml" line-rate="1" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="!XamlIlPopulate" signature="(System.IServiceProvider,SampleAvaloniaNUnit.App)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="1" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="98" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="4" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="98" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="4" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="SampleAvaloniaNUnit.MainWindow" filename="MainWindow.axaml" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="!XamlIlPopulate" signature="(System.IServiceProvider,SampleAvaloniaNUnit.MainWindow)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="1" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="87" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="87" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="7" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="SampleAvaloniaNUnit.MainWindow" filename="MainWindow.axaml.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="SampleAvaloniaNUnit.Program" filename="Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="BuildAvaloniaApp" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
